@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All Tests">
+
+    <test name="My test">
+        <classes>
+            <class name="MyTest"/>
+        </classes>
+    </test>
+	
+	<listeners>
+		<listener class-name="TestListener" />
+	</listeners>
+	
+</suite>
